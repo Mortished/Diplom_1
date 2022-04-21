@@ -20,7 +20,7 @@ public class IngredientTest {
         expectedPrice = price;
     }
 
-    @Parameterized.Parameters
+    @Parameterized.Parameters(name = "Тестовые данные: {0}, {1}, {2}")
     public static Object[][] createDifferentLion() {
         return new Object[][] {
             { SAUCE, "FirstName", 1.1f },
